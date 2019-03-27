@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#Commande bash à utiliser :
+# ./tp4.sh -src images -dest galerie -mask .jpg$ -filldate
+#Le -filldate est optionnel, et je met .jpg$ puisqu'il y a conflit avec le *.jpg
+
 source="" #Dossier où sont les images
 destination="" #Dossier de destination
 mask="" #Extension, ici c'est .jpg$
